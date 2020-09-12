@@ -5,7 +5,7 @@ let col_name = ['Name', 'Prize', 'Qty', 'Total']
 
 let row_name = ['Prathmesh', 'Parag', 'Vaibhav', 'Siddiq']
 
-// let Prize = ['10000', '9000', '8000', '7000']
+let Prize = ['10000', '9000', '8000', '7000']
 
 // let Qty = ['5', '4', '3', '2']
 
@@ -22,11 +22,15 @@ for (let i = 0; i < col_name.length; i++) {
 // Add Names rows
 for (let i = 0; i < row_name.length; i++) {
     let tr = document.createElement('tr')
-    tr.style.border = '1px solid red'
     tr.textContent = row_name[i]
     table.appendChild(tr)
 }
 
+for (let i = 0; i < Prize.length; i++) {
+    let prize_tr = document.createElement('tr')
+    prize_tr.textContent = Prize[i]
+    table.appendChild(prize_tr)
+}
 
 
 //
