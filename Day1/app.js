@@ -5,9 +5,6 @@ let col_name = ['Name', 'Prize', 'Qty', 'Total']
 
 let row_name = ['Prathmesh', 'Parag', 'Vaibhav', 'Siddiq']
 
-let Prize = ['10000', '9000', '8000', '7000']
-
-// let Qty = ['5', '4', '3', '2']
 
 let table = document.getElementById('table')
 
@@ -26,11 +23,6 @@ for (let i = 0; i < row_name.length; i++) {
     table.appendChild(tr)
 }
 
-for (let i = 0; i < Prize.length; i++) {
-    let prize_tr = document.createElement('tr')
-    prize_tr.textContent = Prize[i]
-    table.appendChild(prize_tr)
-}
 
 
 //
