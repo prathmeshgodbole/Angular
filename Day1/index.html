@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div id="dv">
+    <!-- <div id="dv">
         <ol>
             <li id="ce"> Code Editor - VSCode </li>
             <li> Live Reload - Browser Sync </li>
@@ -20,9 +20,38 @@
     <div>
         <table id="table">
         </table>
-    </div>
+    </div> -->
+    <form method="POST" name="sample">
 
-    <script src="app.js"></script>
+        <h1>Dynamic Row</h1>
+
+        <input type="text" placeholder="Name" name="Name" />
+        <input type="number" placeholder="Prize" name="Prize" />
+        <input type="number" placeholder="Qty" name="Qty" />
+        <input type="number" placeholder="Total" name="Total" />
+
+        <br>
+        <br>
+        <hr>
+
+        <input type="button" name="add" value="Add Row" onclick="AddRow()">
+
+        <br>
+        <br>
+
+        <table id="table">
+            <tbody>
+
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+
+    </form>
+
+    <script src="app.js "></script>
+
 </body>
 
 </html>
