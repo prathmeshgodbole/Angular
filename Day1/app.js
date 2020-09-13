@@ -31,7 +31,7 @@ function AddRow() {
     var Name = document.sample.Name.value;
     var Prize = document.sample.Prize.value;
     var Qty = document.sample.Qty.value;
-    var Total = document.sample.Total.value;
+    var Total = document.sample.Total.value
 
     var tr = document.createElement('tr');
 
