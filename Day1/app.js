@@ -27,6 +27,11 @@
 
 // //
 // //homework day 1 - table with dynamic rows, columns name , price, qty and total
+
+
+
+
+
 function AddRow() {
     var Name = document.sample.Name.value;
     var Prize = document.sample.Prize.value;
